@@ -1,0 +1,88 @@
+body{
+    margin: 1; padding: 0;
+}
+.quadrado1{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(80, 197, 197); 
+    width: 60px; 
+    height: 60px;
+}
+.quadrado2{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(5, 46, 57); 
+    width: 60px; 
+    height: 60px;
+}
+.quadrado3{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(228, 47, 107); 
+    width: 60px; 
+    height: 60px;
+}
+.quadrado4{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(255, 234, 113); 
+    width: 60px; 
+    height: 60px;
+}
+.container1{
+    display: flex; 
+    justify-content: baseline;
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 60px;
+}
+.container2{
+    display: flex; 
+    justify-content: end; 
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 60px;
+}
+.container3{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 60px;
+}
+.container4{
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 60px;
+}
+.container5{
+    display: flex;
+    justify-content: space-around; 
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 60px;
+}
+.container6{
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 60px;
+}
+.containerB{
+    display: flex; 
+    flex-direction: column-reverse;
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 240px;
+}
+.containerDesafio{
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color: rgb(155, 155, 155); 
+    width: 99vw; 
+    height: 60px;
+}
